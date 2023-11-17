@@ -11,4 +11,14 @@ public class AppController {
     public String getLogin() {
         return "login";
     }
+
+    @GetMapping("/withdraw")
+    public String getWithdrawPage() {
+        return "withdraw";
+    }
+
+    @GetMapping("")
+    public String getWelcomePage() {
+        return "welcome";
+    }
 }
